@@ -16,6 +16,20 @@
 		826316972746637E002F9282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826316952746637E002F9282 /* LaunchScreen.storyboard */; };
 		826316A22746637F002F9282 /* CitiAppClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826316A12746637F002F9282 /* CitiAppClipTests.swift */; };
 		826316AD2746637F002F9282 /* CitiAppClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826316AC2746637F002F9282 /* CitiAppClipUITests.swift */; };
+		826316BB274666E0002F9282 /* ProfessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826316BA274666E0002F9282 /* ProfessionViewController.swift */; };
+		826316BD274666EC002F9282 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826316BC274666EB002F9282 /* AddressViewController.swift */; };
+		826316BF27466C37002F9282 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826316BE27466C37002F9282 /* UserModel.swift */; };
+		826316C727466FAB002F9282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826316C627466FAB002F9282 /* AppDelegate.swift */; };
+		826316D127466FAB002F9282 /* CreditCardAppClip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 826316CF27466FAB002F9282 /* CreditCardAppClip.xcdatamodeld */; };
+		826316D327466FAC002F9282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826316D227466FAC002F9282 /* Assets.xcassets */; };
+		826316D627466FAC002F9282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826316D427466FAC002F9282 /* LaunchScreen.storyboard */; };
+		826316DB27466FAC002F9282 /* CreditCardAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 826316C427466FAB002F9282 /* CreditCardAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		826316E027466FC8002F9282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8263168D2746637D002F9282 /* Main.storyboard */; };
+		826316E127466FD5002F9282 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826316892746637D002F9282 /* SceneDelegate.swift */; };
+		826316E22746703B002F9282 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8263168B2746637D002F9282 /* ViewController.swift */; };
+		826316E32746703B002F9282 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826316BC274666EB002F9282 /* AddressViewController.swift */; };
+		826316E42746703B002F9282 /* ProfessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826316BA274666E0002F9282 /* ProfessionViewController.swift */; };
+		826316E52746703B002F9282 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826316BE27466C37002F9282 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +47,28 @@
 			remoteGlobalIDString = 826316832746637D002F9282;
 			remoteInfo = CitiAppClip;
 		};
+		826316D927466FAC002F9282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8263167C2746637D002F9282 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 826316C327466FAB002F9282;
+			remoteInfo = CreditCardAppClip;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		826316DF27466FAC002F9282 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				826316DB27466FAC002F9282 /* CreditCardAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		826316842746637D002F9282 /* CitiAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +86,16 @@
 		826316A82746637F002F9282 /* CitiAppClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiAppClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		826316AC2746637F002F9282 /* CitiAppClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiAppClipUITests.swift; sourceTree = "<group>"; };
 		826316AE2746637F002F9282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826316BA274666E0002F9282 /* ProfessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionViewController.swift; sourceTree = "<group>"; };
+		826316BC274666EB002F9282 /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		826316BE27466C37002F9282 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		826316C427466FAB002F9282 /* CreditCardAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCardAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		826316C627466FAB002F9282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		826316D027466FAB002F9282 /* CreditCardAppClip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CreditCardAppClip.xcdatamodel; sourceTree = "<group>"; };
+		826316D227466FAC002F9282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		826316D527466FAC002F9282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		826316D727466FAC002F9282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826316D827466FAC002F9282 /* CreditCardAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CreditCardAppClip.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +120,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		826316C127466FAB002F9282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +136,7 @@
 				826316862746637D002F9282 /* CitiAppClip */,
 				826316A02746637F002F9282 /* CitiAppClipTests */,
 				826316AB2746637F002F9282 /* CitiAppClipUITests */,
+				826316C527466FAB002F9282 /* CreditCardAppClip */,
 				826316852746637D002F9282 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +147,7 @@
 				826316842746637D002F9282 /* CitiAppClip.app */,
 				8263169D2746637F002F9282 /* CitiAppClipTests.xctest */,
 				826316A82746637F002F9282 /* CitiAppClipUITests.xctest */,
+				826316C427466FAB002F9282 /* CreditCardAppClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +163,9 @@
 				826316952746637E002F9282 /* LaunchScreen.storyboard */,
 				826316982746637E002F9282 /* Info.plist */,
 				826316902746637D002F9282 /* CitiAppClip.xcdatamodeld */,
+				826316BA274666E0002F9282 /* ProfessionViewController.swift */,
+				826316BC274666EB002F9282 /* AddressViewController.swift */,
+				826316BE27466C37002F9282 /* UserModel.swift */,
 			);
 			path = CitiAppClip;
 			sourceTree = "<group>";
@@ -131,6 +188,19 @@
 			path = CitiAppClipUITests;
 			sourceTree = "<group>";
 		};
+		826316C527466FAB002F9282 /* CreditCardAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				826316C627466FAB002F9282 /* AppDelegate.swift */,
+				826316D227466FAC002F9282 /* Assets.xcassets */,
+				826316D427466FAC002F9282 /* LaunchScreen.storyboard */,
+				826316D727466FAC002F9282 /* Info.plist */,
+				826316D827466FAC002F9282 /* CreditCardAppClip.entitlements */,
+				826316CF27466FAB002F9282 /* CreditCardAppClip.xcdatamodeld */,
+			);
+			path = CreditCardAppClip;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,10 +211,12 @@
 				826316802746637D002F9282 /* Sources */,
 				826316812746637D002F9282 /* Frameworks */,
 				826316822746637D002F9282 /* Resources */,
+				826316DF27466FAC002F9282 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				826316DA27466FAC002F9282 /* PBXTargetDependency */,
 			);
 			name = CitiAppClip;
 			productName = CitiAppClip;
@@ -187,6 +259,23 @@
 			productReference = 826316A82746637F002F9282 /* CitiAppClipUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		826316C327466FAB002F9282 /* CreditCardAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826316DC27466FAC002F9282 /* Build configuration list for PBXNativeTarget "CreditCardAppClip" */;
+			buildPhases = (
+				826316C027466FAB002F9282 /* Sources */,
+				826316C127466FAB002F9282 /* Frameworks */,
+				826316C227466FAB002F9282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditCardAppClip;
+			productName = CreditCardAppClip;
+			productReference = 826316C427466FAB002F9282 /* CreditCardAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +296,9 @@
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = 826316832746637D002F9282;
 					};
+					826316C327466FAB002F9282 = {
+						CreatedOnToolsVersion = 12.5;
+					};
 				};
 			};
 			buildConfigurationList = 8263167F2746637D002F9282 /* Build configuration list for PBXProject "CitiAppClip" */;
@@ -225,6 +317,7 @@
 				826316832746637D002F9282 /* CitiAppClip */,
 				8263169C2746637F002F9282 /* CitiAppClipTests */,
 				826316A72746637F002F9282 /* CitiAppClipUITests */,
+				826316C327466FAB002F9282 /* CreditCardAppClip */,
 			);
 		};
 /* End PBXProject section */
@@ -254,6 +347,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		826316C227466FAB002F9282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826316D627466FAC002F9282 /* LaunchScreen.storyboard in Resources */,
+				826316D327466FAC002F9282 /* Assets.xcassets in Resources */,
+				826316E027466FC8002F9282 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,7 +365,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8263168C2746637D002F9282 /* ViewController.swift in Sources */,
+				826316BF27466C37002F9282 /* UserModel.swift in Sources */,
+				826316BB274666E0002F9282 /* ProfessionViewController.swift in Sources */,
 				826316882746637D002F9282 /* AppDelegate.swift in Sources */,
+				826316BD274666EC002F9282 /* AddressViewController.swift in Sources */,
 				826316922746637D002F9282 /* CitiAppClip.xcdatamodeld in Sources */,
 				8263168A2746637D002F9282 /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +390,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		826316C027466FAB002F9282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826316D127466FAB002F9282 /* CreditCardAppClip.xcdatamodeld in Sources */,
+				826316E52746703B002F9282 /* UserModel.swift in Sources */,
+				826316C727466FAB002F9282 /* AppDelegate.swift in Sources */,
+				826316E42746703B002F9282 /* ProfessionViewController.swift in Sources */,
+				826316E22746703B002F9282 /* ViewController.swift in Sources */,
+				826316E32746703B002F9282 /* AddressViewController.swift in Sources */,
+				826316E127466FD5002F9282 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -296,6 +416,11 @@
 			isa = PBXTargetDependency;
 			target = 826316832746637D002F9282 /* CitiAppClip */;
 			targetProxy = 826316A92746637F002F9282 /* PBXContainerItemProxy */;
+		};
+		826316DA27466FAC002F9282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 826316C327466FAB002F9282 /* CreditCardAppClip */;
+			targetProxy = 826316D927466FAC002F9282 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -312,6 +437,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				826316962746637E002F9282 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		826316D427466FAC002F9282 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826316D527466FAC002F9282 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -370,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,15 +571,17 @@
 		826316B22746637F002F9282 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2T34H966V;
 				INFOPLIST_FILE = CitiAppClip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.mob.CitiAppClip;
+				PRODUCT_BUNDLE_IDENTIFIER = app.weather.demoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,15 +591,17 @@
 		826316B32746637F002F9282 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2T34H966V;
 				INFOPLIST_FILE = CitiAppClip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.mob.CitiAppClip;
+				PRODUCT_BUNDLE_IDENTIFIER = app.weather.demoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -551,6 +688,46 @@
 			};
 			name = Release;
 		};
+		826316DD27466FAC002F9282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CreditCardAppClip/CreditCardAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2T34H966V;
+				INFOPLIST_FILE = CreditCardAppClip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.weather.demoApp.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		826316DE27466FAC002F9282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CreditCardAppClip/CreditCardAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2T34H966V;
+				INFOPLIST_FILE = CreditCardAppClip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.weather.demoApp.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -590,6 +767,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		826316DC27466FAC002F9282 /* Build configuration list for PBXNativeTarget "CreditCardAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826316DD27466FAC002F9282 /* Debug */,
+				826316DE27466FAC002F9282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -600,6 +786,16 @@
 			);
 			currentVersion = 826316912746637D002F9282 /* CitiAppClip.xcdatamodel */;
 			path = CitiAppClip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		826316CF27466FAB002F9282 /* CreditCardAppClip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				826316D027466FAB002F9282 /* CreditCardAppClip.xcdatamodel */,
+			);
+			currentVersion = 826316D027466FAB002F9282 /* CreditCardAppClip.xcdatamodel */;
+			path = CreditCardAppClip.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
